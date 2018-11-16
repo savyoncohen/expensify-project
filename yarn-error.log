@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn add normalize.css@7.0.0
+  /usr/bin/node /usr/bin/yarn add react-router-dom@4.2.2
 
 PATH: 
   /home/savyon/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -14,11 +14,11 @@ Platform:
   linux x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/var/www/html/react-1st-project/node_modules/.bin/acorn'
+  Error: EACCES: permission denied, mkdir '/var/www/html/expensify-project/node_modules/babel-cli/node_modules/babel-core/node_modules/lodash'
 
 npm manifest: 
   {
-    "name": "react-1st-project",
+    "name": "Boilerplate",
     "version": "1.0.0",
     "main": "index.js",
     "author": "Savyon Cohen",
@@ -38,6 +38,7 @@ npm manifest:
       "css-loader": "^1.0.1",
       "live-server": "^1.2.0",
       "node-sass": "4.5.3",
+      "normalize.css": "7.0.0",
       "react": "16.0.0",
       "react-dom": "16.0.0",
       "react-modal": "2.2.2",
@@ -3259,6 +3260,10 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-2.1.1.tgz#1ab28b556e198363a8c1a6f7e6fa20137fe6aed9"
     dependencies:
       remove-trailing-separator "^1.0.1"
+  
+  normalize.css@7.0.0:
+    version "7.0.0"
+    resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-7.0.0.tgz#abfb1dd82470674e0322b53ceb1aaf412938e4bf"
   
   npm-bundled@^1.0.1:
     version "1.0.5"
